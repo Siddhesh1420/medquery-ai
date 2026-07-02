@@ -40,7 +40,7 @@ export default function ChatMessage({ message }) {
             {message.sources.map((source, i) => (
               <span key={i} className="text-xs px-2 py-1 rounded-full"
                 style={{backgroundColor: '#003a3a', color: '#00ffcc', border: '1px solid #00ffcc44'}}>
-                📄 {source}
+                 {source}
               </span>
             ))}
           </div>

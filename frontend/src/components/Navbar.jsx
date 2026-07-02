@@ -8,7 +8,7 @@ export default function Navbar() {
       style={{backgroundColor: '#0a0f1e', borderBottom: '1px solid #1e3a5f'}}>
       
       <div className="flex items-center gap-3">
-        <div className="text-2xl">🏥</div>
+        <div className="text-2xl"></div>
         <div>
           <span className="text-xl font-bold" style={{color: '#00d4ff'}}>MedQuery</span>
           <span className="text-xl font-bold text-white"> AI</span>
@@ -28,7 +28,7 @@ export default function Navbar() {
             border: '1px solid',
             borderColor: location.pathname === '/' ? '#00d4ff' : '#1e3a5f'
           }}>
-          💬 Chat
+           Chat
         </Link>
         <Link to="/dashboard"
           className="px-5 py-2 rounded-lg text-sm font-medium transition-all"
@@ -38,7 +38,7 @@ export default function Navbar() {
             border: '1px solid',
             borderColor: location.pathname === '/dashboard' ? '#00d4ff' : '#1e3a5f'
           }}>
-          📊 Dashboard
+           Dashboard
         </Link>
       </div>
     </nav>

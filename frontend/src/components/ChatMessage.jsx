@@ -14,7 +14,7 @@ export default function ChatMessage({ message }) {
           border: `1px solid ${isUser ? '#00d4ff' : '#00ffcc'}`,
           color: isUser ? '#00d4ff' : '#00ffcc'
         }}>
-        {isUser ? '👤' : '🏥'}
+        {isUser ? '🙂' : '🩺'}
       </div>
 
       {/* Message bubble */}
